@@ -48,6 +48,6 @@
     color: rgba(160, 30, 35);
     font-size: 14vh;
     font-family: 'Nanum Gothic', sans-serif;
-    text-shadow: 8px 4px 4px rgba(00, 00, 00, 9);
+    text-shadow: 1vh 1vh 1vh rgba(00, 00, 00, 9);
     z-index: 2;
 }
