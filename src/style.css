@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 
-
+#images img{
+    height: 100vh;
+}
 #wrap {
     display: inline-block;
     position: relative;
@@ -8,26 +10,22 @@
 
 #deadimg {
     display: none;
-    height: 50vh;
     position: relative;
     z-index: 1;
 }
 #liveimg {
-    height: 50vh;
     position: relative;
     z-index: 1;
 }
 .bar {
     position: absolute;
     left: 16%;
-    height: 5vh;
-    
+    height: 9vh;
     z-index: 2;
 }
 #healthbar {
     top: 74%;
     width: 69%;
-    height: 4.5vh;
 }
 #healthbarbg {
     display: block;
@@ -40,7 +38,6 @@
     position: absolute;
     top: 84%;
     width: 25%;
-    height: 4.5vh;
     background: linear-gradient( to right, #39589b, #3272c2 );
 }
 #timer {
