@@ -22,11 +22,7 @@ function diffDay(){
     const diffsec = Math.floor((diff / 1000));
 
 
-    remainDay.innerText = `${diffday}day`;
-    remainHour.innerText = `${diffhour}hour`;
-    remainMin.innerText = `${diffmin}min`;
-    remainSec.innerText = `${diffsec}sec`;
-    remainMilli.innerText = `${diff}ms`;
+    remainDay.innerText = `${diffday}day ${diffhour}hour ${diffmin}min ${diffsec}sec`;
     calculateHealth();
 }
 
@@ -72,6 +68,6 @@ function timerdead(){
     timertext.innerText = `${diffsec}`;
     
 }
-// diffDay();
-calculateHealth();
-setInterval(calculateHealth, 1000);
+diffDay();
+// calculateHealth();
+setInterval(diffDay, 1000);
