@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 
-#images img{
-    height: 100vh;
-}
 #wrap {
     display: inline-block;
     position: relative;
@@ -22,7 +19,7 @@
 .bar {
     position: absolute;
     left: 16%;
-    height: 9vh;
+    height: 9%;
     z-index: 2;
 }
 #healthbar {
