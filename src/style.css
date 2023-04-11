@@ -45,8 +45,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(160, 30, 35);
-    font-size: 14vh;
+    font-size: 6em;
     font-family: 'Nanum Gothic', sans-serif;
-    text-shadow: 1vh 1vh 1vh rgba(00, 00, 00, 9);
+    text-shadow: 0.1em 0.1em 0.1em rgba(00, 00, 00, 9);
     z-index: 2;
 }
