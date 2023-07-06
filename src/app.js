@@ -6,7 +6,7 @@ const remainMilli = document.querySelector("#remain-millisecond");
 const healthBar = document.querySelector("#healthbarbg");
 const manaBar = document.querySelector("#manabar");
 const timertext = document.querySelector("#timer");
-dday = new Date("2023-04-11 14:00");
+dday = new Date("2023-07-11 14:00");
 const liveimg = document.querySelector("#liveimg");
 const deadimg = document.querySelector("#deadimg");
 isdead = false;
@@ -28,7 +28,7 @@ function diffDay(){
 
 
 function calculateHealth(){
-    const startday = new Date("2023-04-03 00:00");
+    const startday = new Date("2023-07-05 00:00");
     const today = new Date();
     const health = dday - today;
     if(health < 0 && isdead == false){
@@ -50,7 +50,7 @@ function calculateHealth(){
 }
 
 function timerlive(){
-    const startday = new Date("2023-04-03 00:00");
+    const startday = new Date("2023-07-05 00:00");
     const today = new Date();
     const maxhealth = dday - startday;
     const health = dday - today;
