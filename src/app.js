@@ -52,7 +52,6 @@ function calculateHealth(){
 }
 
 function timerlive(){
-
     const today = new Date();
     const maxhealth = deadDay - startday;
     const health = deadDay - today;
